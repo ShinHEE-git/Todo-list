@@ -1,0 +1,62 @@
+.hidden{
+    display: none;
+}
+body{
+    background-color: #879397;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.clock-title{
+    color: white;
+    font-size: 200px;
+    margin: 100px 0 0 0;
+}
+.login-form{
+    margin-bottom: 20px;
+}
+.greeting{
+    color: whitesmoke;
+    font-size: 70px;
+}
+.reset-btn{
+    font-size: 20px;
+    border: 0;
+    background: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+    color: #E4ADED;
+}
+.input{
+    font-size: 40px;
+    background: none;
+    border: 0;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.8);
+    color: white;
+    outline: none;
+    margin-bottom: 30;
+    width: 600px;
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
+li{
+    font-size: 35px;
+    list-style-type: none;
+    cursor: default;
+    color: whitesmoke;
+}
+.todo-btn{
+    font-size: 25px;
+    background: none;
+    border: 0;
+    size: 20;
+    cursor: pointer;
+    margin-left: 10px;
+    color: #BDF5BC;
+}
+.qoute{
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 50px;
+}
